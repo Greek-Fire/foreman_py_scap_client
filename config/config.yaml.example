@@ -37,4 +37,3 @@
 :oval:
   3:
     :content_path: '/var/lib/openscap/oval_content/ansible-2.9.oval.xml.bz2'
-~  
