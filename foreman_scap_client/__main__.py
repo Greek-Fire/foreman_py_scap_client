@@ -2,7 +2,7 @@
 
 import argparse
 import json
-from foreman_scap_client.yaml_parser import YamlParser  # make sure yaml_parser.py is in the same directory
+from yaml_parser import YamlParser  # make sure yaml_parser.py is in the same directory
 
 
 def main():

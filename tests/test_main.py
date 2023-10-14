@@ -7,7 +7,6 @@ import json
 from pathlib import Path
 
 from foreman_scap_client.yaml_parser import YamlParser
-from foreman_scap_client.main import main  # or from wherever your main function is
 
 
 
