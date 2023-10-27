@@ -7,7 +7,7 @@ from yaml_parser import YamlParser  # make sure yaml_parser.py is in the same di
 
 def main():
     parser = argparse.ArgumentParser(description='YAML Parser')
-    parser.add_argument('-f', '--file', dest='filepath', required=True, help='Path to the YAML file')
+    parser.add_argument('-f', '--file', dest='filepath', required=False, default='/etc/foreman_scap_client/config.yaml', help='Path to the config file')
 
     args = parser.parse_args()
     filepath = args.filepath
